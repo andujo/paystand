@@ -1,0 +1,37 @@
+{
+  "name": "paystand",
+  "version": "1.0.0",
+  "description": "Convert XML to JSON",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha"
+  },
+  "start": "nodemon server.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/andujo/paystand.git"
+  },
+  "keywords": [
+    "XML",
+    "to",
+    "JSON"
+  ],
+  "author": "Jonathan Andujo",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/andujo/paystand/issues"
+  },
+  "homepage": "https://github.com/andujo/paystand#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "nodemon": "^1.18.7",
+    "request": "^2.88.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "body-parser-xml": "^1.1.0",
+    "express": "^4.16.4",
+    "express-xml-bodyparser": "^0.3.0",
+    "lodash": "^4.17.11"
+  }
+}
